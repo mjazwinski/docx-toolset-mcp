@@ -10,6 +10,7 @@ from mcp.server.mcpserver import MCPServer
 
 
 
+from docx_toolset_mcp.tools.get_section_tool import get_section as _get_section
 from docx_toolset_mcp.tools.list_sections_tool import (
 
     SectionEntry,
